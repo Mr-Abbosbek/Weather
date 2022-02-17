@@ -62,9 +62,22 @@
     height: 100% !important;
   }
   .default{
-    padding-bottom: 381px!important;
+    padding-top: 70px !important;
+    padding-bottom: 376.5px!important;
   }
   .location-box{
-    padding-bottom: 200px;
+    padding-bottom: 183px;
+  }
+}
+@media (max-width: 576.9px) {
+  .default{
+    padding-top: 70px !important;
+    padding-bottom: 376.5px!important;
+  }
+}
+@media (max-width: 386.9px) {
+  .default{
+    padding-top: 70px !important;
+    padding-bottom: 378.5px!important;
   }
 }
