@@ -1,22 +1,23 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: monospace, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+body {
+  font-family: monospace, "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif;
 }
-.App{
+.App {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   background-image: url("./../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.cloud{
+.cloud {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/cloud.jpg");
@@ -24,7 +25,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.clear{
+.clear {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/clear.jpg");
@@ -32,7 +33,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.cold{
+.cold {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/cold.jpg");
@@ -40,7 +41,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.mist{
+.mist {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/mist.jpg");
@@ -48,7 +49,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.hot{
+.hot {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/hot.jpg");
@@ -56,7 +57,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.rain{
+.rain {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/rain.jpg");
@@ -64,7 +65,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.snow{
+.snow {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/snow.jpg");
@@ -72,7 +73,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.storm{
+.storm {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/storm.jpg");
@@ -80,7 +81,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.sunny{
+.sunny {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/sunny.jpg");
@@ -88,7 +89,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.wind{
+.wind {
   width: 100%;
   height: 100vh;
   background-image: url("./../images/wind.jpg");
@@ -96,25 +97,25 @@ body{
   background-size: cover;
   background-position: center;
 }
-.App::before{
+.App::before {
   position: absolute;
   content: "";
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.2);
 }
-.main-container{
+.main-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   z-index: 111;
 }
-.search-box{
+.search-box {
   width: 45%;
   padding: 70px 50px;
 }
-.search-box .search-bar{
+.search-box .search-bar {
   display: block;
   width: 100%;
   padding: 15px;
@@ -130,19 +131,19 @@ body{
   font-size: 20px;
   transition: 0.5s ease;
 }
-.search-box .search-bar:focus{
+.search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 16px 0px 16px 0px;
 }
-.location-box{
+.location-box {
   width: 55%;
-  text-align: center; 
+  text-align: center;
   color: white;
 }
-.location{
+.location {
   font-size: 30px;
 }
-.tem{
+.tem {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -153,14 +154,14 @@ body{
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.8);
 }
-.tem p{
+.tem p {
   text-shadow: 0px 0px 5px black;
 }
-.date{
+.date {
   padding-bottom: 15px;
   font-style: italic;
 }
-.weather{
+.weather {
   padding-top: 15px;
   font-size: 35px;
   font-weight: bold;
