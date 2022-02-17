@@ -96,7 +96,7 @@ function AllCounter() {
         <div className="search-box">
           <input
             type="text"
-            className="search-bar mt-5"
+            className="search-bar"
             placeholder="Search..."
             onChange={(e) => setQuery(e.target.value)}
             value={query}
@@ -117,7 +117,7 @@ function AllCounter() {
             </div>
           </div>
         ) : (
-          <div className="location-box d-flex justify-content-center align-items-center pt-5"><h3>Not Found</h3></div>
+          <div className="location-box default d-flex justify-content-center align-items-center"><h3>Not Found !</h3></div>
         )}
       </div>
     </div>

@@ -24,4 +24,48 @@
   .tem p{
     font-size: 95px !important;
   }
+
+  
+  /* .focus {
+    height: 100% !important;
+  } */
+  .App {
+    height: 100% !important;
+  }
+  .cloud {
+    height: auto !important;
+  }
+  .clear {
+    height: 100% !important;
+  }
+  .cold {
+    height: 100% !important;
+  }
+  .mist {
+    height: 100% !important;
+  }
+  .hot {
+    height: 100% !important
+  }
+  .rain {
+    height: 100% !important;
+  }
+  .snow {
+    height: 100% !important;
+  }
+  .storm {
+    height: 100% !important;
+  }
+  .sunny {
+    height: 100% !important;
+  }
+  .wind {
+    height: 100% !important;
+  }
+  .default{
+    padding-bottom: 331px!important;
+  }
+  .location-box{
+    padding-bottom: 66px;
+  }
 }
