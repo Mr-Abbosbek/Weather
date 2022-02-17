@@ -22,7 +22,7 @@
     width: 100% !important;
   }
   .tem p{
-    font-size: 95px !important;
+    font-size: 90px !important;
   }
 
   .search-box .search-bar{
@@ -62,9 +62,9 @@
     height: 100% !important;
   }
   .default{
-    padding-bottom: 331px!important;
+    padding-bottom: 381px!important;
   }
   .location-box{
-    padding-bottom: 66px;
+    padding-bottom: 200px;
   }
 }
