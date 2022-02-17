@@ -7,6 +7,8 @@ body{
   font-family: monospace, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 .App{
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 100vh;
   background-image: url("./../images/bg.jpg");
@@ -104,6 +106,7 @@ body{
 .main-container{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   z-index: 111;
 }

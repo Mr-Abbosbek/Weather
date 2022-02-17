@@ -59,38 +59,38 @@ function AllCounter() {
     <div className={
       (typeof weather.main != "undefined")
       ? ((weather.weather[0].main === "Clouds")
-          ? "App d-flex align-items-center cloud" :
+          ? "App cloud" :
 
           (weather.weather[0].main === "Clear")
-          ? "App d-flex align-items-center clear" :
+          ? "App clear" :
           
           (weather.weather[0].main === "Cold")
-          ? "App d-flex align-items-center cold" :
+          ? "App cold" :
 
           (weather.weather[0].main === "Mist")
-          ? "App d-flex align-items-center mist" :
+          ? "App mist" :
 
           (weather.weather[0].main === "Hot")
-          ? "App d-flex align-items-center hot" :
+          ? "App hot" :
           
           (weather.weather[0].main === "Rain")
-          ? "App d-flex align-items-center rain" :
+          ? "App rain" :
           
           (weather.weather[0].main === "Snow")
-          ? "App d-flex align-items-center snow" :
+          ? "App snow" :
 
           (weather.weather[0].main === "Storm")
-          ? "App d-flex align-items-center storm" :
+          ? "App storm" :
 
           (weather.weather[0].main === "Sunny")
-          ? "App d-flex align-items-center sunny" :
+          ? "App sunny" :
 
           (weather.weather[0].main === "Wind")
-          ? "App d-flex align-items-center wind"
+          ? "App wind"
 
-          : "App d-flex align-items-center"
+          : "App"
         )
-      : "App d-flex align-items-center"
+      : "App"
     }>
       <div className="main-container">
         <div className="search-box">
@@ -117,7 +117,7 @@ function AllCounter() {
             </div>
           </div>
         ) : (
-          <div className="location-box"></div>
+          <div className="location-box d-flex justify-content-center align-items-center pt-5"><h3>Not Found</h3></div>
         )}
       </div>
     </div>
