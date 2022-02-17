@@ -1,14 +1,3 @@
-@media(max-width: 1300.9px){
-  
-}
-
-/* lg  */
-
-@media(max-width: 1199.9px) and (min-width: 992px){
-  
-}
-
-/* md  */
 
 @media(max-width: 991.9px){
   .search-box{
@@ -27,15 +16,13 @@
   }
   .search-box{
     width: 100% !important;
-    padding: 50px 20px !important;
+    padding: 0px 20px 50px 20px !important;
   }
   .location-box{
     width: 100% !important;
+    padding-top: 80px !important;
   }
-}
-
-/* xs */
-
-@media(max-width: 575.9px){
-  
+  .tem p{
+    font-size: 95px !important;
+  }
 }
