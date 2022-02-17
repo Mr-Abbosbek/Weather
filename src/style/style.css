@@ -110,7 +110,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   z-index: 111;
-  padding-bottom: 250px;
 }
 .search-box {
   width: 45%;
