@@ -93,7 +93,7 @@ function AllCounter() {
       : "App"
     }>
       <div className="main-container">
-        <div className="search-box">
+        <div className="search-box order-lg-first order order-sm-last">
           <input
             type="text"
             className="search-bar mt-5"
